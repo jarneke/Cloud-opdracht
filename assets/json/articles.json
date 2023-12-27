@@ -1,0 +1,1130 @@
+[
+  {
+    "index": 1,
+    "articleName": "Giant Trail 29er",
+    "price": 1499.99,
+    "imageSrc": "assets/photos/products/ai_bike-1.webp",
+    "type": "Mountainbike",
+    "brand": "Giant",
+    "infoShort": "Een krachtige mountainbike, ontworpen voor trailrijden.",
+    "info": "De Giant Trail 29er is een krachtige mountainbike ontworpen voor trailrijden. Hij beschikt over een lichtgewicht aluminium frame, 29-inch wielen voor superieure controle en een hoogwaardig veersysteem voor een soepele rit.",
+    "count": 0,
+    "isOnCart": false,
+    "isOnWIshlist": false,
+    "specifications": [
+      "Frame: lichtgewicht aluminium",
+      "Wielmaat: 29 inch",
+      "Vering: hoogwaardige voor- en achtervering",
+      "Versnellingen: versnellingssysteem met 21 versnellingen",
+      "Remmen: Hydraulische schijfremmen"
+    ],
+    "reviews": [
+      {
+        "username": "MountainBiker101",
+        "rating": 5,
+        "comment": "Geweldige fiets! De 29 inch wielen maken echt een verschil op de trails."
+      },
+      {
+        "username": "TrailRider22",
+        "rating": 4,
+        "comment": "Stevige fiets, rijdt goed. Er mag wel iets meer demping op de zitting zijn."
+      },
+      {
+        "username": "BikeEnthusiast",
+        "rating": 5,
+        "comment": "Beste mountainbike die ik heb gehad. De vering is van topklasse."
+      },
+      {
+        "username": "OffroadAdventurer",
+        "rating": 4,
+        "comment": "Goede waarde voor de prijs. Het versnellingssysteem is soepel en betrouwbaar."
+      },
+      {
+        "username": "CyclingFan",
+        "rating": 5,
+        "comment": "Geweldige fiets voor trailrijden. Lichtgewicht en duurzaam."
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "articleName": "Canion Ride 27.5",
+    "price": 1199.99,
+    "imageSrc": "assets/photos/products/ai_bike-2.webp",
+    "type": "Mountainbike",
+    "brand": "Canion",
+    "infoShort": "Een veelzijdige mountainbike ontworpen voor zowel trail als stadsritten.",
+    "info": "De Canion Ride 27.5 is een veelzijdige mountainbike die zowel thuis is op stadsstraten als op bergpaden. Het beschikt over een stevig frame, 27,5-inch wielen voor een balans van controle en snelheid, en een betrouwbaar versnellingssysteem voor een breed scala aan terreinen.",
+    "count": 0,
+    "isOnCart": false,
+    "isOnWIshlist": false,
+    "specifications": [
+      "Frame: Stevig Staal",
+      "Wielmaat: 27,5 inch",
+      "Vering: Voorvering voor soepele ritten",
+      "Versnellingen: 18-versnellings versnellingssysteem",
+      "Remmen: Mechanische schijfremmen"
+    ],
+    "reviews": [
+      {
+        "username": "MountainBiker101",
+        "rating": 5,
+        "comment": "Fantastische fiets! De 27,5-inch wielen zijn perfect voor zowel stadsritten als trailritten."
+      },
+      {
+        "username": "CityRider",
+        "rating": 4,
+        "comment": "Goede fiets voor de stad, maar ook verrassend capabel op de trails. Zou graag een comfortabeler zadel zien."
+      },
+      {
+        "username": "TrailBlazer",
+        "rating": 5,
+        "comment": "Ik ben onder de indruk van de veelzijdigheid van deze fiets. Het presteert goed op verschillende terreinen."
+      },
+      {
+        "username": "BikeLover",
+        "rating": 4,
+        "comment": "Goede prijs-kwaliteitverhouding. De versnellingen schakelen soepel en de remmen zijn betrouwbaar."
+      },
+      {
+        "username": "CyclingEnthusiast",
+        "rating": 5,
+        "comment": "Geweldige allround fiets. Het is lichtgewicht, duurzaam en ziet er geweldig uit."
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "articleName": "Cube Jump 29",
+    "price": 799.5,
+    "imageSrc": "assets/photos/products/ai_bike-3.webp",
+    "type": "Mountainbike",
+    "brand": "Cube",
+    "infoShort": "Een robuuste mountainbike ontworpen voor sprongen en technische trails.",
+    "info": "De Cube Jump 29 is een robuuste mountainbike die is ontworpen voor sprongen en technische trails. Het beschikt over een sterk frame, 29-inch wielen voor superieure controle, en een geavanceerd veersysteem voor een soepele rit.",
+    "count": 0,
+    "isOnCart": false,
+    "isOnWIshlist": false,
+    "specifications": [
+      "Frame: Sterk Staal",
+      "Wielmaat: 29 inch",
+      "Vering: Geavanceerde voor- en achtervering",
+      "Versnellingen: 24-versnellings versnellingssysteem",
+      "Remmen: Hydraulische schijfremmen"
+    ],
+    "reviews": [
+      {
+        "username": "JumpMaster",
+        "rating": 5,
+        "comment": "Uitstekende fiets voor sprongen! De 29-inch wielen en geavanceerde vering maken een groot verschil."
+      },
+      {
+        "username": "TrailExpert",
+        "rating": 4,
+        "comment": "Goede fiets voor technische trails. De versnellingen kunnen echter soepeler schakelen."
+      },
+      {
+        "username": "BikeAdventurer",
+        "rating": 5,
+        "comment": "Geweldige fiets voor avontuurlijke ritten. Het sterke frame kan veel aan."
+      },
+      {
+        "username": "OffroadRider",
+        "rating": 4,
+        "comment": "Degelijke fiets met goede prijs-kwaliteitverhouding. De remmen zijn betrouwbaar, zelfs op steile afdalingen."
+      },
+      {
+        "username": "CyclingAddict",
+        "rating": 5,
+        "comment": "Ik hou van deze fiets! Het is perfect voor zowel sprongen als snelle afdalingen."
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "articleName": "Trek Pinnacle",
+    "price": 1200.0,
+    "imageSrc": "assets/photos/products/ai_bike-5.webp",
+    "type": "Mountainbike",
+    "brand": "Trek",
+    "infoShort": "Duurzame en efficiënte 26-inch hardtail mountainbike van Trek.",
+    "info": "Deze Trek mountainbike heeft een 26-inch hardtail frame voor een soepele en efficiënte rit. De fiets is ontworpen voor off-road fietsen en komt in een prachtige kleur van starlight purple. Het is gebouwd met hoogwaardige componenten voor duurzaamheid en prestaties.",
+    "count": 0,
+    "isOnCart": false,
+    "isOnWishlist": false,
+    "specifications": [
+      "Frame: 26-inch hardtail",
+      "Kleur: Starlight Purple",
+      "Merk: Trek",
+      "Gewicht: 13.5 kg",
+      "Garantie: 2 jaar"
+    ],
+    "reviews": [
+      {
+        "username": "CyclistMike",
+        "rating": 5,
+        "comment": "Fantastische fiets! Het is zeer efficiënt en de rit is soepel. Elke cent waard."
+      },
+      {
+        "username": "MTBQueen",
+        "rating": 4,
+        "comment": "Ik vind deze fiets leuk. Het is goed voor mountainbiken. De kleur is prachtig."
+      },
+      {
+        "username": "TrailBlazer",
+        "rating": 4,
+        "comment": "De fiets is goed. Het doet zijn werk, maar ik heb comfortabelere gehad."
+      },
+      {
+        "username": "BikeLover",
+        "rating": 5,
+        "comment": "Uitstekende kwaliteit en prijs. Het is duurzaam en presteert goed."
+      },
+      {
+        "username": "RiderJane",
+        "rating": 4,
+        "comment": "Goede fiets voor mountainbiken. Het is wel een beetje zwaar."
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "articleName": "Mondraker Drako-29",
+    "price": 3500.0,
+    "imageSrc": "assets/photos/products/ai_bike-4.webp",
+    "type": "Mountainbike",
+    "brand": "Mondraker",
+    "infoShort": "High-performance full suspension mountainbike van Mondraker.",
+    "info": "Deze Mondraker mountainbike heeft een volledig geveerd frame voor een soepele en efficiënte rit. De fiets is ontworpen voor off-road fietsen en komt in een opvallend goud- en zwartkleurenschema. Het is gebouwd met hoogwaardige componenten voor duurzaamheid en prestaties, waaronder een zwarte verende voorvork en achtervering, schijfremmen en noppenbanden.",
+    "count": 0,
+    "isOnCart": false,
+    "isOnWishlist": false,
+    "specifications": [
+      "Frame: Volledig geveerd",
+      "Kleur: Goud en Zwart",
+      "Merk: Mondraker",
+      "Gewicht: 14 kg",
+      "Garantie: 2 jaar"
+    ],
+    "reviews": [
+      {
+        "username": "CyclistMike",
+        "rating": 5,
+        "comment": "Fantastische fiets! Het is zeer efficiënt en de rit is soepel. Elke cent waard."
+      },
+      {
+        "username": "MTBQueen",
+        "rating": 4,
+        "comment": "Ik vind deze fiets leuk. Het is goed voor mountainbiken. Het kleurenschema is opvallend."
+      },
+      {
+        "username": "TrailBlazer",
+        "rating": 4,
+        "comment": "De fiets is goed. Het doet zijn werk, maar ik heb comfortabelere gehad."
+      },
+      {
+        "username": "BikeLover",
+        "rating": 5,
+        "comment": "Uitstekende kwaliteit en prijs. Het is duurzaam en presteert goed."
+      },
+      {
+        "username": "RiderJane",
+        "rating": 4,
+        "comment": "Goede fiets voor mountainbiken. Het is wel een beetje zwaar."
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "articleName": "Garmin E501",
+    "price": 200.0,
+    "imageSrc": "assets/photos/products/ai_gps-3.webp",
+    "type": "Fiets computer",
+    "brand": "Garmin",
+    "infoShort": "Een geavanceerde fietscomputer met GPS en hartslagmonitor.",
+    "info": "De Garmin E501 is een geavanceerde fietscomputer die is ontworpen om uw ritten te verbeteren. Het beschikt over GPS-navigatie, een hartslagmonitor, en een breed scala aan fiets-specifieke functies om uw prestaties te volgen.",
+    "count": 0,
+    "isOnCart": false,
+    "isOnWIshlist": false,
+    "specifications": [
+      "GPS: Ingebouwde GPS-navigatie",
+      "Hartslagmonitor: Ingebouwde hartslagmonitor",
+      "Scherm: Hoogwaardig kleurenscherm",
+      "Connectiviteit: Bluetooth en ANT+ connectiviteit",
+      "Batterij: Lange levensduur van de batterij"
+    ],
+    "reviews": [
+      {
+        "username": "CyclingPro",
+        "rating": 5,
+        "comment": "Uitstekende fietscomputer! De GPS en hartslagmonitor zijn zeer nauwkeurig."
+      },
+      {
+        "username": "BikeRider",
+        "rating": 4,
+        "comment": "Goede fietscomputer met veel functies. De connectiviteit kan echter beter."
+      },
+      {
+        "username": "FitnessFan",
+        "rating": 5,
+        "comment": "Geweldig hulpmiddel voor het volgen van mijn fietsprestaties. De batterij gaat lang mee."
+      },
+      {
+        "username": "OutdoorEnthusiast",
+        "rating": 4,
+        "comment": "Degelijke fietscomputer. De GPS is betrouwbaar, zelfs op afgelegen paden."
+      },
+      {
+        "username": "CyclingAddict",
+        "rating": 5,
+        "comment": "Ik hou van deze fietscomputer! Het kleurenscherm is helder en gemakkelijk af te lezen."
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "articleName": "Samsung Galaxy Bike Pro",
+    "price": 299.0,
+    "imageSrc": "assets/photos/products/ai_gps-2.webp",
+    "type": "Fiets computer",
+    "brand": "Samsung",
+    "infoShort": "Een geavanceerde fietscomputer met ingebouwde smart functies.",
+    "info": "De Samsung Galaxy Bike Pro is een geavanceerde fietscomputer die is ontworpen om uw ritten te verbeteren. Het beschikt over GPS-navigatie, een hartslagmonitor, en een breed scala aan fiets-specifieke functies om uw prestaties te volgen.",
+    "count": 0,
+    "isOnCart": false,
+    "isOnWIshlist": false,
+    "specifications": [
+      "GPS: Ingebouwde GPS-navigatie",
+      "Hartslagmonitor: Ingebouwde hartslagmonitor",
+      "Scherm: Hoogwaardig kleurenscherm",
+      "Connectiviteit: Bluetooth en Wi-Fi connectiviteit",
+      "Batterij: Lange levensduur van de batterij"
+    ],
+    "reviews": [
+      {
+        "username": "TechBiker",
+        "rating": 5,
+        "comment": "Uitstekende fietscomputer! De ingebouwde smart functies zijn zeer handig."
+      },
+      {
+        "username": "CityCommuter",
+        "rating": 3,
+        "comment": "De fietscomputer is goed, maar de prijs is aan de hoge kant. Er zijn goedkopere alternatieven beschikbaar."
+      },
+      {
+        "username": "BikeFan",
+        "rating": 4,
+        "comment": "Goede fietscomputer met veel functies. De GPS kan echter nauwkeuriger zijn."
+      },
+      {
+        "username": "OutdoorRider",
+        "rating": 2,
+        "comment": "De fietscomputer is niet zo duurzaam als ik had gehoopt. Ik heb al een paar problemen gehad met de connectiviteit."
+      },
+      {
+        "username": "CyclingAddict",
+        "rating": 5,
+        "comment": "Ik hou van deze fietscomputer! Het kleurenscherm is helder en gemakkelijk af te lezen."
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "articleName": "Apple iCycle",
+    "price": 1599.99,
+    "imageSrc": "assets/photos/products/ai_gps-1.webp",
+    "type": "Fiets computer",
+    "brand": "Apple",
+    "infoShort": "Een premium fietscomputer met geavanceerde smart functies.",
+    "info": "De Apple iCycle is een premium fietscomputer die is ontworpen om uw fietservaring te verbeteren. Het beschikt over GPS-navigatie, een hartslagmonitor, en een breed scala aan fiets-specifieke functies om uw prestaties te volgen, allemaal naadloos geïntegreerd met het Apple ecosysteem.",
+    "count": 0,
+    "isOnCart": false,
+    "isOnWIshlist": false,
+    "specifications": [
+      "GPS: Ingebouwde GPS-navigatie",
+      "Hartslagmonitor: Ingebouwde hartslagmonitor",
+      "Scherm: Hoogwaardig Retina-display",
+      "Connectiviteit: Bluetooth en Wi-Fi connectiviteit",
+      "Batterij: Lange levensduur van de batterij"
+    ],
+    "reviews": [
+      {
+        "username": "TechBiker",
+        "rating": 5,
+        "comment": "Uitstekende fietscomputer! De integratie met het Apple ecosysteem is fantastisch."
+      },
+      {
+        "username": "CityCommuter",
+        "rating": 3,
+        "comment": "De fietscomputer is goed, maar de prijs is erg hoog. Er zijn goedkopere alternatieven beschikbaar."
+      },
+      {
+        "username": "BikeFan",
+        "rating": 4,
+        "comment": "Goede fietscomputer met veel functies. De GPS kan echter nauwkeuriger zijn."
+      },
+      {
+        "username": "OutdoorRider",
+        "rating": 2,
+        "comment": "De fietscomputer is niet zo duurzaam als ik had gehoopt. Ik heb al een paar problemen gehad met de connectiviteit."
+      },
+      {
+        "username": "CyclingAddict",
+        "rating": 5,
+        "comment": "Ik hou van deze fietscomputer! Het Retina-display is helder en gemakkelijk af te lezen."
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "articleName": "Mio cyclo",
+    "price": 199.99,
+    "imageSrc": "assets/photos/products/ai_gps-4.webp",
+    "type": "Fiets computer",
+    "brand": "Mio",
+    "infoShort": "Een gebruiksvriendelijke fietscomputer met navigatie en trainingsfuncties.",
+    "info": "De Mio Cyclo is een gebruiksvriendelijke fietscomputer die is ontworpen om uw fietservaring te verbeteren. Het beschikt over GPS-navigatie, trainingsfuncties, en een breed scala aan fiets-specifieke functies om uw prestaties te volgen.",
+    "count": 0,
+    "isOnCart": false,
+    "isOnWIshlist": false,
+    "specifications": [
+      "GPS: Ingebouwde GPS-navigatie",
+      "Trainingsfuncties: Ingebouwde trainingsfuncties",
+      "Scherm: Hoogwaardig scherm",
+      "Connectiviteit: Bluetooth connectiviteit",
+      "Batterij: Lange levensduur van de batterij"
+    ],
+    "reviews": [
+      {
+        "username": "TechBiker",
+        "rating": 4,
+        "comment": "Goede fietscomputer! De navigatie is nauwkeurig en de trainingsfuncties zijn handig."
+      },
+      {
+        "username": "CityCommuter",
+        "rating": 3,
+        "comment": "De fietscomputer is oké, maar de prijs is een beetje hoog. Er zijn goedkopere alternatieven beschikbaar."
+      },
+      {
+        "username": "BikeFan",
+        "rating": 4,
+        "comment": "Degelijke fietscomputer met veel functies. De GPS kan echter nauwkeuriger zijn."
+      },
+      {
+        "username": "OutdoorRider",
+        "rating": 2,
+        "comment": "De fietscomputer is niet zo duurzaam als ik had gehoopt. Ik heb al een paar problemen gehad met de connectiviteit."
+      },
+      {
+        "username": "CyclingAddict",
+        "rating": 5,
+        "comment": "Ik hou van deze fietscomputer! Het scherm is helder en gemakkelijk af te lezen."
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "articleName": "POC Flow",
+    "price": 99.99,
+    "imageSrc": "assets/photos/products/ai_helmet-1.webp",
+    "type": "Helm",
+    "brand": "POC",
+    "infoShort": "Een lichtgewicht helm ontworpen voor comfort en veiligheid.",
+    "info": "De POC Flow Helm is een lichtgewicht helm die is ontworpen voor zowel comfort als veiligheid. Het beschikt over een geavanceerd ventilatiesysteem om je koel te houden en een verstelbare pasvorm voor maximaal comfort.",
+    "count": 0,
+    "isOnCart": false,
+    "isOnWIshlist": false,
+    "specifications": [
+      "Materiaal: Hoogwaardig polycarbonaat",
+      "Ventilatie: Geavanceerd ventilatiesysteem",
+      "Pasvorm: Verstelbare pasvorm",
+      "Gewicht: Lichtgewicht ontwerp",
+      "Veiligheid: Voldoet aan veiligheidsnormen"
+    ],
+    "reviews": [
+      {
+        "username": "BikeRider",
+        "rating": 4,
+        "comment": "Goede helm, licht en comfortabel. De ventilatie kan echter beter."
+      },
+      {
+        "username": "MountainBiker",
+        "rating": 5,
+        "comment": "Uitstekende helm! Het is licht en de pasvorm is verstelbaar voor comfort."
+      },
+      {
+        "username": "CyclingFan",
+        "rating": 3,
+        "comment": "De helm is oké, maar de prijs is een beetje hoog. Er zijn goedkopere alternatieven beschikbaar."
+      },
+      {
+        "username": "OutdoorRider",
+        "rating": 4,
+        "comment": "Degelijke helm met goede prijs-kwaliteitverhouding. De ventilatie kan echter beter."
+      },
+      {
+        "username": "CyclingAddict",
+        "rating": 5,
+        "comment": "Ik hou van deze helm! Het is licht, comfortabel en ziet er geweldig uit."
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "articleName": "POC Style",
+    "price": 279.0,
+    "imageSrc": "assets/photos/products/ai_helmet-4.webp",
+    "type": "Helm",
+    "brand": "POC",
+    "infoShort": "Een stijlvolle helm ontworpen voor comfort en veiligheid.",
+    "info": "De POC Style Helm is een stijlvolle helm die is ontworpen voor zowel comfort als veiligheid. Het beschikt over een geavanceerd ventilatiesysteem om je koel te houden en een verstelbare pasvorm voor maximaal comfort.",
+    "count": 0,
+    "isOnCart": false,
+    "isOnWIshlist": false,
+    "specifications": [
+      "Materiaal: Hoogwaardig polycarbonaat",
+      "Ventilatie: Geavanceerd ventilatiesysteem",
+      "Pasvorm: Verstelbare pasvorm",
+      "Gewicht: Lichtgewicht ontwerp",
+      "Veiligheid: Voldoet aan veiligheidsnormen"
+    ],
+    "reviews": [
+      {
+        "username": "BikeRider",
+        "rating": 4,
+        "comment": "Goede helm, licht en comfortabel. De ventilatie kan echter beter."
+      },
+      {
+        "username": "MountainBiker",
+        "rating": 5,
+        "comment": "Uitstekende helm! Het is licht en de pasvorm is verstelbaar voor comfort."
+      },
+      {
+        "username": "CyclingFan",
+        "rating": 3,
+        "comment": "De helm is oké, maar de prijs is een beetje hoog. Er zijn goedkopere alternatieven beschikbaar."
+      },
+      {
+        "username": "OutdoorRider",
+        "rating": 4,
+        "comment": "Degelijke helm met goede prijs-kwaliteitverhouding. De ventilatie kan echter beter."
+      },
+      {
+        "username": "CyclingAddict",
+        "rating": 5,
+        "comment": "Ik hou van deze helm! Het is licht, comfortabel en ziet er geweldig uit."
+      }
+    ]
+  },
+  {
+    "index": 12,
+    "articleName": "POC carbon Light",
+    "price": 559.0,
+    "imageSrc": "assets/photos/products/ai_helmet-3.webp",
+    "type": "Helm",
+    "brand": "POC",
+    "infoShort": "Een ultralichte helm ontworpen voor comfort en veiligheid.",
+    "info": "De POC Carbon Light Helm is een ultralichte helm die is ontworpen voor zowel comfort als veiligheid. Het beschikt over een geavanceerd ventilatiesysteem om je koel te houden en een verstelbare pasvorm voor maximaal comfort.",
+    "count": 0,
+    "isOnCart": false,
+    "isOnWIshlist": false,
+    "specifications": [
+      "Materiaal: Hoogwaardig carbon",
+      "Ventilatie: Geavanceerd ventilatiesysteem",
+      "Pasvorm: Verstelbare pasvorm",
+      "Gewicht: Ultralicht ontwerp",
+      "Veiligheid: Voldoet aan veiligheidsnormen"
+    ],
+    "reviews": [
+      {
+        "username": "BikeRider",
+        "rating": 4,
+        "comment": "Goede helm, zeer licht en comfortabel. De ventilatie kan echter beter."
+      },
+      {
+        "username": "MountainBiker",
+        "rating": 5,
+        "comment": "Uitstekende helm! Het is zeer licht en de pasvorm is verstelbaar voor comfort."
+      },
+      {
+        "username": "CyclingFan",
+        "rating": 3,
+        "comment": "De helm is oké, maar de prijs is een beetje hoog. Er zijn goedkopere alternatieven beschikbaar."
+      },
+      {
+        "username": "OutdoorRider",
+        "rating": 4,
+        "comment": "Degelijke helm met goede prijs-kwaliteitverhouding. De ventilatie kan echter beter."
+      },
+      {
+        "username": "CyclingAddict",
+        "rating": 5,
+        "comment": "Ik hou van deze helm! Het is zeer licht, comfortabel en ziet er geweldig uit."
+      }
+    ]
+  },
+  {
+    "index": 13,
+    "articleName": "Apple iHelmet",
+    "price": 2099.0,
+    "imageSrc": "assets/photos/products/ai_helmet-2.webp",
+    "type": "Helm",
+    "brand": "Apple",
+    "infoShort": "Een premium helm met geavanceerde smart functies.",
+    "info": "De Apple iHelmet Helm is een premium helm die is ontworpen voor de moderne fietser. Het beschikt over een geavanceerd ventilatiesysteem om je koel te houden, een verstelbare pasvorm voor maximaal comfort, en een reeks slimme functies om uw ritten te verbeteren, allemaal naadloos geïntegreerd met het Apple ecosysteem.",
+    "count": 0,
+    "isOnCart": false,
+    "isOnWIshlist": false,
+    "specifications": [
+      "Materiaal: Hoogwaardig polycarbonaat",
+      "Ventilatie: Geavanceerd ventilatiesysteem",
+      "Pasvorm: Verstelbare pasvorm",
+      "Gewicht: Lichtgewicht ontwerp",
+      "Veiligheid: Voldoet aan veiligheidsnormen"
+    ],
+    "reviews": [
+      {
+        "username": "TechBiker",
+        "rating": 4,
+        "comment": "Uitstekende helm! De integratie met het Apple ecosysteem is fantastisch."
+      },
+      {
+        "username": "CityCommuter",
+        "rating": 1,
+        "comment": "De helm is goed, maar de prijs is erg hoog. Er zijn goedkopere alternatieven beschikbaar."
+      },
+      {
+        "username": "BikeFan",
+        "rating": 3,
+        "comment": "Goede helm met veel functies. De ventilatie kan echter beter."
+      },
+      {
+        "username": "OutdoorRider",
+        "rating": 2,
+        "comment": "De helm is niet zo duurzaam als ik had gehoopt. Ik heb al een paar problemen gehad met de connectiviteit."
+      },
+      {
+        "username": "CyclingAddict",
+        "rating": 4,
+        "comment": "Ik hou van deze helm! Het is licht, comfortabel en ziet er geweldig uit."
+      }
+    ]
+  },
+  {
+    "index": 14,
+    "articleName": "POC Money Saver",
+    "price": 19.99,
+    "imageSrc": "assets/photos/products/ai_helmet-5.webp",
+    "type": "Helm",
+    "brand": "POC",
+    "infoShort": "Een betaalbare helm ontworpen voor comfort en veiligheid.",
+    "info": "De POC Money Saver Helm is een betaalbare helm die is ontworpen voor zowel comfort als veiligheid. Het beschikt over een geavanceerd ventilatiesysteem om je koel te houden en een verstelbare pasvorm voor maximaal comfort.",
+    "count": 0,
+    "isOnCart": false,
+    "isOnWIshlist": false,
+    "specifications": [
+      "Materiaal: Hoogwaardig polycarbonaat",
+      "Ventilatie: Geavanceerd ventilatiesysteem",
+      "Pasvorm: Verstelbare pasvorm",
+      "Gewicht: Lichtgewicht ontwerp",
+      "Veiligheid: Voldoet aan veiligheidsnormen"
+    ],
+    "reviews": [
+      {
+        "username": "BudgetBiker",
+        "rating": 3,
+        "comment": "Goede helm voor de prijs. De ventilatie kan echter beter."
+      },
+      {
+        "username": "CityCommuter",
+        "rating": 5,
+        "comment": "Uitstekende helm voor de prijs! Het is comfortabel en licht."
+      },
+      {
+        "username": "BikeFan",
+        "rating": 2,
+        "comment": "De helm is oké, maar de duurzaamheid kan beter. Ik heb al een paar problemen gehad met de verstelbare pasvorm."
+      },
+      {
+        "username": "OutdoorRider",
+        "rating": 3,
+        "comment": "Degelijke helm met goede prijs-kwaliteitverhouding. De ventilatie kan echter beter."
+      },
+      {
+        "username": "CyclingAddict",
+        "rating": 4,
+        "comment": "Ik hou van deze helm! Het is licht, comfortabel en betaalbaar."
+      }
+    ]
+  },
+  {
+    "index": 15,
+    "articleName": "BikePro GXT-50",
+    "price": 45.99,
+    "imageSrc": "assets/photos/products/ai_gloves-1.webp",
+    "type": "Fiets handschoenen",
+    "brand": "BikePro",
+    "infoShort": "Hoogwaardige, duurzame en comfortabele mountainbike handschoenen.",
+    "info": "Deze BikePro mountainbike handschoenen zijn ontworpen voor maximaal comfort en bescherming. Ze hebben een versterkte handpalm voor extra grip en een verstelbare polsband voor een stevige pasvorm. De handschoenen hebben ook ventilatieopeningen om je handen koel te houden tijdens lange ritten.",
+    "count": 0,
+    "isOnCart": false,
+    "isOnWishlist": false,
+    "specifications": [
+      "Materiaal: Synthetisch leer en mesh",
+      "Kleur: Zwart",
+      "Maat: Verkrijgbaar in M, L, XL",
+      "Gewicht: 150g",
+      "Garantie: 1 jaar"
+    ],
+    "reviews": [
+      {
+        "username": "CyclistMike",
+        "rating": 4,
+        "comment": "Geweldige handschoenen! Ze zijn zeer comfortabel en de grip is uitstekend. Ze vallen echter een beetje klein uit, overweeg een maatje groter te bestellen."
+      },
+      {
+        "username": "MTBQueen",
+        "rating": 5,
+        "comment": "Ik hou van deze handschoenen! Ze zijn perfect voor mountainbiken. De ventilatieopeningen zijn een mooi detail."
+      },
+      {
+        "username": "TrailBlazer",
+        "rating": 3,
+        "comment": "De handschoenen zijn oké. Ze doen hun werk, maar ik heb comfortabelere gehad."
+      },
+      {
+        "username": "BikeLover",
+        "rating": 4,
+        "comment": "Goede kwaliteit en prijs. Ze zouden wel wat duurzamer kunnen zijn."
+      },
+      {
+        "username": "RiderJane",
+        "rating": 5,
+        "comment": "De beste handschoenen die ik ooit heb gehad voor mountainbiken. Een echte aanrader!"
+      }
+    ]
+  },
+  {
+    "index": 16,
+    "articleName": "BikePro GXT-10",
+    "price": 19.99,
+    "imageSrc": "assets/photos/products/ai_gloves-3.webp",
+    "type": "Fiets handschoenen",
+    "brand": "BikePro",
+    "infoShort": "Stijlvolle en hoogwaardige mountainbike handschoenen.",
+    "info": "Deze BikePro mountainbike handschoenen zijn ontworpen met een strak blauw ontwerp en hoogwaardige materialen. Ze hebben een versterkte handpalm voor extra grip en een verstelbare polsband voor een stevige pasvorm.",
+    "count": 0,
+    "isOnCart": false,
+    "isOnWishlist": false,
+    "specifications": [
+      "Materiaal: Lage kwaliteit synthetisch leer",
+      "Kleur: Blauw",
+      "Maat: Verkrijgbaar in M, L, XL",
+      "Gewicht: 100g",
+      "Garantie: 6 maanden"
+    ],
+    "reviews": [
+      {
+        "username": "CyclistMike",
+        "rating": 2,
+        "comment": "De handschoenen zien er mooi uit, maar ze zijn helemaal niet comfortabel. Ze begonnen uit elkaar te vallen na een paar ritten."
+      },
+      {
+        "username": "MTBQueen",
+        "rating": 1,
+        "comment": "Heel teleurgesteld in deze handschoenen. Ze worden gepromoot als hoogwaardig, maar dat zijn ze zeker niet."
+      },
+      {
+        "username": "TrailBlazer",
+        "rating": 2,
+        "comment": "De handschoenen zijn de prijs niet waard. Het materiaal is goedkoop en ze gaan niet lang mee."
+      },
+      {
+        "username": "BikeLover",
+        "rating": 3,
+        "comment": "Ze zijn prima voor de prijs, maar verwacht niet dat ze lang meegaan. Je krijgt waar je voor betaalt."
+      },
+      {
+        "username": "RiderJane",
+        "rating": 1,
+        "comment": "De slechtste handschoenen die ik ooit heb gehad voor mountainbiken. Ze begonnen te scheuren na slechts een paar keer gebruiken."
+      }
+    ]
+  },
+  {
+    "index": 17,
+    "articleName": "BikePro GXT-100",
+    "price": 59.99,
+    "imageSrc": "assets/photos/products/ai_gloves-2.webp",
+    "type": "Fiets handschoenen",
+    "brand": "BikePro",
+    "infoShort": "Hoogwaardige, duurzame en comfortabele mountainbike handschoenen.",
+    "info": "Deze BikePro mountainbike handschoenen zijn ontworpen voor maximaal comfort en bescherming. Ze hebben een versterkte handpalm voor extra grip, een verstelbare polsband voor een stevige pasvorm en zijn gemaakt van hoogwaardige materialen voor duurzaamheid. De handschoenen hebben ook ventilatieopeningen om je handen koel te houden tijdens lange ritten.",
+    "count": 0,
+    "isOnCart": false,
+    "isOnWishlist": false,
+    "specifications": [
+      "Materiaal: Hoogwaardig synthetisch leer en mesh",
+      "Kleur: Zwart",
+      "Maat: Verkrijgbaar in M, L, XL",
+      "Gewicht: 150g",
+      "Garantie: 2 jaar"
+    ],
+    "reviews": [
+      {
+        "username": "CyclistMike",
+        "rating": 5,
+        "comment": "Fantastische handschoenen! Ze zijn zeer comfortabel en de grip is uitstekend. Elke cent waard."
+      },
+      {
+        "username": "MTBQueen",
+        "rating": 5,
+        "comment": "Ik hou van deze handschoenen! Ze zijn perfect voor mountainbiken. De ventilatieopeningen zijn een mooi detail."
+      },
+      {
+        "username": "TrailBlazer",
+        "rating": 4,
+        "comment": "De handschoenen zijn goed. Ze doen hun werk, maar ik heb comfortabelere gehad."
+      },
+      {
+        "username": "BikeLover",
+        "rating": 5,
+        "comment": "Uitstekende kwaliteit en prijs. Ze zijn duurzaam en comfortabel."
+      },
+      {
+        "username": "RiderJane",
+        "rating": 5,
+        "comment": "De beste handschoenen die ik ooit heb gehad voor mountainbiken. Een echte aanrader!"
+      }
+    ]
+  },
+  {
+    "index": 18,
+    "articleName": "BikePro Blazers",
+    "price": 99.99,
+    "imageSrc": "assets/photos/products/ai_shoes-2.webp",
+    "type": "Fiets schoenen",
+    "brand": "BikePro",
+    "infoShort": "Stevige, comfortabele en efficiënte mountainbike schoenen.",
+    "info": "Deze BikePro mountainbike schoenen zijn ontworpen voor maximale efficiëntie en comfort. Ze hebben een stijve zool voor optimale krachtoverdracht en een veilig pasvormsysteem voor de hele dag comfort. De schoenen hebben ook ademend materiaal om je voeten koel te houden tijdens lange ritten.",
+    "count": 0,
+    "isOnCart": false,
+    "isOnWishlist": false,
+    "specifications": [
+      "Materiaal: Synthetisch leer en mesh",
+      "Kleur: Zwart",
+      "Maat: Verkrijgbaar in EU maten 40-46",
+      "Gewicht: 300g",
+      "Garantie: 1 jaar"
+    ],
+    "reviews": [
+      {
+        "username": "CyclistMike",
+        "rating": 5,
+        "comment": "Fantastische schoenen! Ze zijn zeer comfortabel en de krachtoverdracht is uitstekend. Elke cent waard."
+      },
+      {
+        "username": "MTBQueen",
+        "rating": 4,
+        "comment": "Ik vind deze schoenen leuk. Ze zijn goed voor mountainbiken. De pasvorm is wel een beetje strak."
+      },
+      {
+        "username": "TrailBlazer",
+        "rating": 3,
+        "comment": "De schoenen zijn oké. Ze doen hun werk, maar ik heb comfortabelere gehad."
+      },
+      {
+        "username": "BikeLover",
+        "rating": 4,
+        "comment": "Goede kwaliteit en prijs. Ze zouden wel wat duurzamer kunnen zijn."
+      },
+      {
+        "username": "RiderJane",
+        "rating": 4,
+        "comment": "Goede schoenen voor mountainbiken. Ze zijn wel een beetje zwaar."
+      }
+    ]
+  },
+  {
+    "index": 19,
+    "articleName": "BikePro Jumpers",
+    "price": 199.99,
+    "imageSrc": "assets/photos/products/ai_shoes-1.webp",
+    "type": "Fiets schoenen",
+    "brand": "EliteRide",
+    "infoShort": "Stijlvolle mountainbike schoenen met een unieke kleurveranderende functie.",
+    "info": "Deze EliteRide mountainbike schoenen zijn ontworpen voor degenen die willen opvallen op de paden. Ze hebben een uniek kleurveranderend materiaal dat reageert op temperatuurveranderingen. Hoewel deze functie cool is, verbetert het de prestaties of het comfort niet. De schoenen hebben ook een stijve zool voor optimale krachtoverdracht en een veilig pasvormsysteem, maar de kwaliteit komt niet helemaal overeen met de hoge prijs.",
+    "count": 0,
+    "isOnCart": false,
+    "isOnWIshlist": false,
+    "specifications": [
+      "Materiaal: Synthetisch leer en kleurveranderende stof",
+      "Kleur: Varieert met temperatuur",
+      "Maat: Verkrijgbaar in EU-maten 40-46",
+      "Gewicht: 350g",
+      "Garantie: 1 jaar"
+    ],
+    "reviews": [
+      {
+        "username": "CyclistMike",
+        "rating": 3,
+        "comment": "De kleurveranderende functie is cool, maar de schoenen zijn te duur voor wat ze bieden."
+      },
+      {
+        "username": "MTBQueen",
+        "rating": 2,
+        "comment": "Ik was teleurgesteld in deze schoenen. Ze zien er geweldig uit, maar ze zijn niet erg comfortabel."
+      },
+      {
+        "username": "TrailBlazer",
+        "rating": 4,
+        "comment": "Ik hou van het unieke ontwerp van deze schoenen, maar ze zijn een beetje duur."
+      },
+      {
+        "username": "BikeLover",
+        "rating": 3,
+        "comment": "Degelijke schoenen, maar de hoge prijs is niet gerechtvaardigd."
+      },
+      {
+        "username": "RiderJane",
+        "rating": 3,
+        "comment": "De schoenen zijn oké. De kleurveranderende functie is leuk maar verbetert de prestaties niet."
+      }
+    ]
+  },
+  {
+    "index": 20,
+    "articleName": "Trek Freebird",
+    "price": 120.99,
+    "imageSrc": "assets/photos/products/ai_outfit-1.webp",
+    "type": "Fietsoutfit",
+    "brand": "Trek",
+    "infoShort": "Stijlvolle en comfortabele mountainbike-outfit.",
+    "info": "Deze BikePro mountainbike-outfit bestaat uit een shirt en fietsbroek die zijn ontworpen voor maximaal comfort en stijl. Het shirt is voorzien van ademend materiaal om je koel te houden tijdens lange ritten, en de broek heeft een gevoerd zitvlak voor extra comfort. De outfit is stijlvol ontworpen met een moderne uitstraling die perfect bij elkaar past.",
+    "count": 0,
+    "isOnCart": false,
+    "isOnWishlist": false,
+    "specifications": [
+      "Materiaal: Polyester en Spandex",
+      "Kleur: Zwart en Groen",
+      "Maat: Verkrijgbaar in M, L, XL",
+      "Gewicht: 500g",
+      "Garantie: 1 jaar"
+    ],
+    "reviews": [
+      {
+        "username": "CyclistMike",
+        "rating": 5,
+        "comment": "Fantastische outfit! Het is zeer comfortabel en stijlvol. Ik krijg complimenten elke keer dat ik het draag."
+      },
+      {
+        "username": "MTBQueen",
+        "rating": 4,
+        "comment": "Ik vind deze outfit leuk. Het is goed voor mountainbiken. Het shirt zit wel een beetje strak."
+      },
+      {
+        "username": "TrailBlazer",
+        "rating": 3,
+        "comment": "De outfit is oké. Het doet zijn werk, maar ik heb comfortabelere gehad."
+      },
+      {
+        "username": "BikeLover",
+        "rating": 4,
+        "comment": "Goede kwaliteit en prijs. De broek zou wel wat duurzamer kunnen zijn."
+      },
+      {
+        "username": "RiderJane",
+        "rating": 4,
+        "comment": "Goede outfit voor mountainbiken. De kleuren zijn wel een beetje fel."
+      }
+    ]
+  },
+  {
+    "index": 21,
+    "articleName": "CyclePro Fiets Repair Kit",
+    "price": 25.99,
+    "imageSrc": "assets/photos/products/ai_rapair-1.webp",
+    "type": "Fietsaccessoires",
+    "brand": "CyclePro",
+    "infoShort": "Een compacte en handige reparatieset voor je fiets.",
+    "info": "Deze CyclePro Fiets Repair Kit bevat alles wat je nodig hebt om je fiets onderweg te repareren. Inclusief bandenlichters, patches, lijm en multifunctioneel gereedschap.",
+    "count": 0,
+    "isOnCart": false,
+    "isOnWIshlist": false,
+    "specifications": [
+      "Compact en lichtgewicht",
+      "Inclusief bandenlichters, patches, lijm",
+      "Bevat multifunctioneel gereedschap",
+      "Geschikt voor alle fietsen",
+      "Duurzaam en betrouwbaar"
+    ],
+    "reviews": [
+      {
+        "username": "FietsFan123",
+        "rating": 4,
+        "comment": "Handige set, heeft alles wat je nodig hebt voor basisreparaties."
+      },
+      {
+        "username": "CycleLover",
+        "rating": 5,
+        "comment": "Geweldige kwaliteit en zeer nuttig tijdens lange fietstochten."
+      },
+      {
+        "username": "RoadRider",
+        "rating": 3,
+        "comment": "Goede set, maar kon meer gereedschappen gebruiken."
+      },
+      {
+        "username": "MountainBiker",
+        "rating": 4,
+        "comment": "Betrouwbaar en duurzaam. Heeft me al een paar keer gered."
+      },
+      {
+        "username": "CasualCyclist",
+        "rating": 5,
+        "comment": "Ik ben geen professional, maar deze set maakt kleine reparaties eenvoudig."
+      }
+    ]
+  },
+  {
+    "index": 22,
+    "articleName": "ShineCycle Fiets Poets Kit",
+    "price": 29.99,
+    "imageSrc": "assets/photos/products/ai_clean-1.webp",
+    "type": "Fietsaccessoires",
+    "brand": "ShineCycle",
+    "infoShort": "Een complete set voor het schoonmaken en onderhouden van je fiets.",
+    "info": "De ShineCycle Fiets Poets Kit bevat alles wat je nodig hebt om je fiets er als nieuw uit te laten zien. Inclusief schoonmaakmiddel, poetsdoeken, borstels en een handige draagtas.",
+    "count": 0,
+    "isOnCart": false,
+    "isOnWIshlist": false,
+    "specifications": [
+      "Inclusief schoonmaakmiddel, poetsdoeken, borstels",
+      "Wordt geleverd met een handige draagtas",
+      "Geschikt voor alle fietsen",
+      "Milieuvriendelijke producten",
+      "Duurzaam en betrouwbaar"
+    ],
+    "reviews": [
+      {
+        "username": "FietsFan123",
+        "rating": 5,
+        "comment": "Fantastische kit, maakte mijn fiets weer als nieuw."
+      },
+      {
+        "username": "CycleLover",
+        "rating": 4,
+        "comment": "Goede kwaliteit producten, maar kon meer poetsdoeken gebruiken."
+      },
+      {
+        "username": "RoadRider",
+        "rating": 4,
+        "comment": "Handige set, hield mijn fiets schoon tijdens mijn lange reizen."
+      },
+      {
+        "username": "MountainBiker",
+        "rating": 5,
+        "comment": "Geweldig product. De borstels zijn zeer effectief."
+      },
+      {
+        "username": "CasualCyclist",
+        "rating": 4,
+        "comment": "Ik ben geen professional, maar deze set maakt het schoonmaken van mijn fiets eenvoudig."
+      }
+    ]
+  },
+  {
+    "index": 23,
+    "articleName": "PumpPro Hand Fietspomp",
+    "price": 14.99,
+    "imageSrc": "assets/photos/products/ai_pump-1.webp",
+    "type": "Fietsaccessoires",
+    "brand": "PumpPro",
+    "infoShort": "Een draagbare en efficiënte handpomp voor je fiets.",
+    "info": "De PumpPro Hand Fietspomp is een essentieel accessoire voor elke fietser. Het is lichtgewicht, compact en gemakkelijk te gebruiken. Het heeft een flexibele slang en is compatibel met zowel Presta- als Schrader-ventielen.",
+    "count": 0,
+    "isOnCart": false,
+    "isOnWIshlist": false,
+    "specifications": [
+      "Lichtgewicht en draagbaar",
+      "Flexibele slang",
+      "Compatibel met Presta en Schrader ventielen",
+      "Duurzaam en betrouwbaar",
+      "Gemakkelijk te gebruiken"
+    ],
+    "reviews": [
+      {
+        "username": "FietsFan123",
+        "rating": 5,
+        "comment": "Zeer handige pomp, gemakkelijk mee te nemen op fietstochten."
+      },
+      {
+        "username": "CycleLover",
+        "rating": 4,
+        "comment": "Goede pomp, maar had een beetje moeite met Schrader-ventielen."
+      },
+      {
+        "username": "RoadRider",
+        "rating": 5,
+        "comment": "Geweldige pomp. Lichtgewicht en zeer efficiënt."
+      },
+      {
+        "username": "MountainBiker",
+        "rating": 4,
+        "comment": "Betrouwbare pomp. Heeft me al een paar keer gered."
+      },
+      {
+        "username": "CasualCyclist",
+        "rating": 5,
+        "comment": "Ik ben geen professional, maar deze pomp maakt het oppompen van mijn banden eenvoudig."
+      }
+    ]
+  },
+  {
+    "index": 24,
+    "articleName": "ProtectPro Frame Protector Spray",
+    "price": 9.99,
+    "imageSrc": "assets/photos/products/ai_spray-1.webp",
+    "type": "Fietsaccessoires",
+    "brand": "ProtectPro",
+    "infoShort": "Een hoogwaardige spray voor het beschermen van je fietsframe.",
+    "info": "De ProtectPro Frame Protector Spray biedt een uitstekende bescherming voor je fietsframe tegen krassen, vuil en corrosie. Het is gemakkelijk aan te brengen en droogt snel.",
+    "count": 0,
+    "isOnCart": false,
+    "isOnWIshlist": false,
+    "specifications": [
+      "Biedt bescherming tegen krassen, vuil en corrosie",
+      "Gemakkelijk aan te brengen",
+      "Droogt snel",
+      "Geschikt voor alle fietsframes",
+      "Duurzaam en betrouwbaar"
+    ],
+    "reviews": [
+      {
+        "username": "FietsFan123",
+        "rating": 5,
+        "comment": "Uitstekende spray, hield mijn frame er als nieuw uit."
+      },
+      {
+        "username": "CycleLover",
+        "rating": 4,
+        "comment": "Goede bescherming, maar had een beetje moeite met het aanbrengen."
+      },
+      {
+        "username": "RoadRider",
+        "rating": 5,
+        "comment": "Geweldige spray. Mijn frame ziet er nog steeds geweldig uit na maanden gebruik."
+      },
+      {
+        "username": "MountainBiker",
+        "rating": 4,
+        "comment": "Betrouwbare spray. Beschermt goed tegen modder en vuil."
+      },
+      {
+        "username": "CasualCyclist",
+        "rating": 5,
+        "comment": "Ik ben geen professional, maar deze spray maakt het onderhouden van mijn fiets eenvoudig."
+      }
+    ]
+  }
+]

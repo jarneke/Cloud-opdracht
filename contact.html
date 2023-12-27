@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alpine pulse contact</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Changa&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/0fbfe9cad5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/map.js" defer></script>
+    <script src="js/contact.js" defer></script>
+    <link
+      rel="shortcut icon"
+      href="assets/icons/logoWhite.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body class="contactBody">
+    <header>
+      <a href="index.html">
+        <img src="assets/photos/Logo.svg" alt="Logo" />
+      </a>
+      <nav>
+        <a href="shop.html"><p>Shop</p></a>
+        <a href="index.html#overOns"><p>Over Mij</p></a>
+        <a href="contact.html"><p>Contact</p></a>
+        <a href="clients.html"><p>Klanten</p></a>
+      </nav>
+      <div>
+        <a href="https://facebook.com" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="clients.html">
+          <i class="far fa-user-circle"></i>
+        </a>
+      </div>
+      <form>
+        <input
+          type="search"
+          name="search"
+          id="search"
+          placeholder="Zoeken..."
+        />
+        <input type="submit" value="Look" />
+      </form>
+    </header>
+    <main class="contact">
+      <section>
+        <form action="#" method="get" id="contactForm">
+          <fieldset>
+            <legend><h1>Contact formulier</h1></legend>
+            <br />
+            <h2>Velden met * zijn verplicht in te vullen</h2>
+            <input
+              type="text"
+              name="vnaam"
+              id="vnaam"
+              placeholder="voornaam *"
+              autocomplete="name"
+            />
+            <input
+              type="text"
+              name="anaam"
+              id="anaam"
+              placeholder="achternaam *"
+              autocomplete="family-name"
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="e-mail *"
+              autocomplete="email"
+            />
+            <textarea
+              name="vraag"
+              id="vraag"
+              cols="30"
+              rows="10"
+              placeholder="Formuleer hier uw vraag *"
+            ></textarea>
+            <input
+              type="submit"
+              name="submit"
+              id="submit"
+              value="Verstuur vraag"
+            />
+          </fieldset>
+        </form>
+        <article class="contactFormErrors">
+          <p id="fNameError">! ERROR: vul aub uw voornaam in. !</p>
+          <p id="lNameError">! ERROR: vul aub uw achternaam in. !</p>
+          <p id="emailError">! ERROR: vul aub uw e-mail in. !</p>
+          <p id="messageError">! ERROR: vul aub bericht in. !</p>
+        </article>
+      </section>
+      <section>
+        <h1>Q&A</h1>
+        <article>
+          <h2 class="dropDown">
+            Wat zijn de verzendopties en kosten?
+            <i class="fas fa-angle-down" id="dropDownIcon"></i>
+          </h2>
+          <p class="content">
+            Wij verzenden naar de meeste landen ter wereld. De verzendopties en
+            kosten zijn afhankelijk van uw locatie en het gewicht van uw
+            bestelling. U kunt de geschatte verzendkosten zien voordat u uw
+            bestelling plaatst. We bieden ook gratis verzending voor
+            bestellingen van meer dan €200.
+          </p>
+        </article>
+        <article class="question">
+          <h2 class="dropDown">
+            Hoe lang duurt het voordat ik mijn bestelling ontvang?
+            <i class="fas fa-angle-down" id="dropDownIcon"></i>
+          </h2>
+          <p class="content">
+            De levertijd varieert afhankelijk van uw locatie en de
+            verzendmethode die u kiest. Over het algemeen duurt het tussen de 3
+            en 10 werkdagen voordat uw bestelling aankomt. U kunt de status van
+            uw bestelling online volgen met het trackingnummer dat we u in de
+            bevestigingsmail verstrekken.
+          </p>
+        </article>
+        <article class="question">
+          <h2 class="dropDown">
+            Wat is uw retourbeleid?
+            <i class="fas fa-angle-down" id="dropDownIcon"></i>
+          </h2>
+          <p class="content">
+            We willen dat u tevreden bent met uw aankoop. Als u om welke reden
+            dan ook niet tevreden bent met uw bestelling, kunt u deze binnen 30
+            dagen na levering retourneren voor een volledige terugbetaling of
+            omruiling. De artikelen moeten ongebruikt, ongedragen en in hun
+            originele verpakking zijn. U bent verantwoordelijk voor de retour
+            verzendkosten. Neem contact met ons op voordat u uw bestelling
+            terugstuurt om een retourautorisatienummer en instructies te
+            ontvangen.
+          </p>
+        </article>
+      </section>
+      <section>
+        <article>
+          <h1>Nuttige Info</h1>
+          <p>
+            Als je op zoek bent naar mountainbikes en mountainbike-uitrusting,
+            ben je op de juiste plek. We hebben een breed scala aan producten
+            voor alle vaardigheidsniveaus en voorkeuren. Of je nu een beginner
+            bent of een professional, we hebben alles wat je nodig hebt om van
+            je rit te genieten.
+          </p>
+          <p>
+            Maar we verkopen niet alleen producten, we bieden ook waardevolle
+            informatie en ondersteuning om je te helpen de beste keuzes te
+            maken. Daarom hebben we enkele handige bronnen voor je verzameld in
+            deze sectie. Deze bronnen zullen je helpen meer te weten te komen
+            over mountainbiken, de beste paden te vinden, de beste uitrusting te
+            vergelijken en contact te leggen met andere rijders.
+          </p>
+        </article>
+        <article>
+          <h2 class="dropDown">
+            Hoe kies je een mountainbike
+            <i class="fas fa-angle-down" id="dropDownIcon"></i>
+          </h2>
+          <p class="content">
+            Het kiezen van een mountainbike hangt af van verschillende factoren.
+            Hier zijn enkele tips om u te helpen bij het maken van uw keuze:
+            <br /><br /><br />Bepaal uw budget: Mountainbikes kunnen variëren in
+            prijs, dus het is belangrijk om te weten hoeveel u bereid bent uit
+            te geven. <br /><br />Kies het juiste type: Er zijn verschillende
+            soorten mountainbikes, waaronder crosscountry, trail, enduro en
+            downhill. Elk type is ontworpen voor een specifiek soort terrein en
+            rijstijl.<br /><br />Framegrootte en -materiaal: De grootte van het
+            frame moet passen bij uw lichaamslengte en -bouw. <br /><br />Het
+            materiaal van het frame (meestal aluminium of carbon) kan ook een
+            verschil maken in gewicht en duurzaamheid. <br /><br />Ophanging:
+            Mountainbikes kunnen een voorvering (hardtail) of volledige vering
+            (full suspension) hebben. Volledige vering is meestal comfortabeler,
+            maar hardtails zijn vaak lichter en efficiënter op vlak terrein.
+            <br /><br />Wielformaat: Er zijn drie hoofdmaten van
+            mountainbikewielen: 26 inch, 27,5 inch (of 650b) en 29 inch. Grotere
+            wielen rollen gemakkelijker over obstakels, maar kleinere wielen
+            kunnen wendbaarder zijn. <br /><br />Componenten: Let op de
+            kwaliteit van de componenten, zoals de versnellingen, remmen en
+            banden. Deze kunnen een groot verschil maken in de prestaties van de
+            fiets. <br /><br />Probeer het uit: Als het mogelijk is, probeer dan
+            verschillende fietsen uit voordat u uw definitieve keuze maakt. Dit
+            kan u helpen om te bepalen welke fiets het beste bij u past.
+            <br /><br /><br />Onthoud dat de perfecte mountainbike voor u degene
+            is die aan uw behoeften voldoet en u het meeste plezier geeft
+            tijdens het rijden. Veel succes met uw zoektocht! 🚵‍♂️
+          </p>
+        </article>
+        <article>
+          <h2 class="dropDown">
+            Hoe onderhoud je jouw mountainbike
+            <i class="fas fa-angle-down" id="dropDownIcon"></i>
+          </h2>
+          <p class="content">
+            Het onderhouden van je mountainbike is een belangrijk aspect om de
+            levensduur te verlengen en de prestaties te verbeteren. Hier zijn
+            enkele stappen die je kunt volgen om je mountainbike te onderhouden:
+            <br /><br /><br />Mountainbike schoonmaken: Na een tocht is het
+            waarschijnlijk dat je mountainbike vies is geworden. Het is
+            belangrijk om je mountainbike grondig schoon te maken, vooral de
+            ketting en het frame. Gebruik een kettingreiniger die geschikt is
+            voor fietsen en vermijd algemene ontvetters die te agressief kunnen
+            zijn. Voor het frame en andere onderdelen van je mountainbike kun je
+            een fietsreiniger gebruiken. <br /><br />Ketting smeren: Nadat je de
+            ketting hebt schoongemaakt en ontvet, is het belangrijk om deze te
+            smeren. Dit zorgt ervoor dat je ketting soepel loopt en vermindert
+            de slijtage. <br /><br />Mountainbike beschermen: Bescherm je frame
+            en andere ongelakte onderdelen. Dit kan helpen om je mountainbike er
+            goed uit te laten zien en de levensduur van de onderdelen te
+            verlengen. <br /><br />Groot onderhoud: Dit omvat het (de)monteren
+            van onderdelen, het smeren of beschermen van lagers, het ontluchten
+            van hydraulische remmen en het vervangen van olie, het onderhouden
+            van de voorvork, en het loshalen van vastzittende of vastgeroeste
+            boutjes. <br /><br />Remschijven & Rempads schoonmaken: Als je
+            mountainbike erg vies is geworden, is het belangrijk om ook je
+            remschijven en rempads schoon te maken. Dit voorkomt dat je
+            remkracht verliest, de remschijven gaan piepen en ze sneller
+            slijten. <br /><br />Onderhoud & afstellen: Dit omvat het ontluchten
+            van de remmen, het ontvetten en smeren van de ketting, het afstellen
+            van de rebound, het afstellen van de vering, het onderhouden van de
+            voorvork, en het afstellen van de derailleur. <br /><br /><br />Het
+            is belangrijk om te onthouden dat regelmatig onderhoud kan helpen om
+            problemen op de lange termijn te voorkomen. Veel succes met het
+            onderhouden van je mountainbike! 🚵‍♂️
+          </p>
+        </article>
+        <article>
+          <h2 class="dropDown">
+            Hoe vind je mountainbikepaden
+            <i class="fas fa-angle-down" id="dropDownIcon"></i>
+          </h2>
+          <p class="content">
+            Er zijn verschillende manieren om mountainbikepaden te vinden:
+            <br /><br /><br />Online platforms: Websites zoals Komoot en
+            Fietsknooppunt bieden uitgebreide databases van mountainbikeroutes
+            en -paden. Je kunt filteren op locatie, moeilijkheidsgraad, afstand
+            en andere criteria om een pad te vinden dat bij je past.
+            <br /><br />Nationale parken en natuurgebieden: Veel nationale
+            parken en natuurgebieden hebben specifieke mountainbikepaden.
+            Bijvoorbeeld, de Utrechtse Heuvelrug in Nederland heeft meer dan 95
+            km aan mountainbikepaden. Het is belangrijk om de regels van het
+            gebied te controleren voordat je gaat mountainbiken, zoals of je op
+            de speciale mountainbikepaden moet blijven en of je een
+            toegangskaartje nodig hebt. <br /><br />Lokale fietswinkels en
+            clubs: Deze kunnen vaak advies geven over de beste lokale paden en
+            routes. <br /><br />Apps: Er zijn verschillende apps beschikbaar die
+            mountainbikepaden kunnen tonen op basis van je locatie.
+            <br /><br /><br />Onthoud dat veiligheid voorop staat bij het
+            mountainbiken. Zorg ervoor dat je altijd een helm draagt en dat je
+            fiets in goede staat is voordat je op pad gaat. Veel plezier met
+            mountainbiken! 🚵‍♂️
+          </p>
+        </article>
+      </section>
+    </main>
+    <aside>
+      <section>
+        <h1>Onze winkel locatie</h1>
+        <div id="AlpinePulseMap"></div>
+        <p>
+          AlpinePulse is een winkel gevestigd op een gunstige locatie die voor
+          iedereen goed bereikbaar is. We doen er alles aan om onze klanten een
+          naadloze winkelervaring te bieden, en onze locatie is daarop geen
+          uitzondering. Of u nu vanuit het stadscentrum of de buitenwijken komt,
+          AlpinePulse ligt op slechts een klein eindje rijden. Wij beschikken
+          over voldoende parkeergelegenheid, zodat u zich geen zorgen hoeft te
+          maken over het vinden van een plekje. Onze winkel ligt ook vlakbij het
+          openbaar vervoer, waardoor u hier gemakkelijk kunt komen, ook als u
+          geen auto heeft. We zien ernaar uit je binnenkort te zien!
+        </p>
+      </section>
+    </aside>
+    <footer>
+      <img src="assets/photos/Logo.svg" alt="logo" />
+      <h1>Alpine Pulse Gear</h1>
+      <p>
+        Rijd met vertrouwen en stijl. Verken het beste op het gebied van
+        MTB-uitrusting bij AlpinePulse Gear. We zijn hier om je passie voor
+        mountainbiken te voeden. Winkel nu en rust jezelf uit voor je volgende
+        avontuur. <br /><br />
+        <span>🚵‍♂️ #RideOn #MountainbikeLeven #AlpinePulseGear</span>
+      </p>
+      <h2>Contacteer ons:</h2>
+      <address>
+        <h3>📞 Klantenservice:</h3>
+        <p>+32 478 18 97 56</p>
+        <h3>📧 E-mail:</h3>
+        <p>Jarne.Eldrup@outlook.com</p>
+        <h3>💻 Website:</h3>
+        <a href="https://www.AlpinePulse.be" target="_blank">
+          www.AlpinePulse.be
+        </a>
+      </address>
+    </footer>
+  </body>
+</html>
