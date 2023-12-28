@@ -1,4 +1,4 @@
-#Web tech Project assignment
+# Web tech Project assignment
 
 This repo is just the main assignment i got for my web tech class.
 We had to make a website with certain small assignments like add an animation and stuff like that.
