@@ -1,16 +1,20 @@
-//variables
+// Variables
 import articles from "../assets/json/articles.json" assert { type: "json" };
 
 let sortBy = document.getElementById("sort");
+
 const productContainer = document.getElementById("productGridContainer");
 const sortFieldset = document.getElementById("sortFieldset");
 const filterTypeFieldset = document.getElementById("filterTypeFieldset");
 const filterBrandFieldset = document.getElementById("filterBrandFieldset");
 const cartContainer = document.getElementById("cartContainer");
 
-//functions
+// functions
 
-//--Function to add a cartain product to cart.
+/**
+ * A fuction to add a specific item to the cart.
+ * @param {Article} product Article to be adde dto cart.
+ */
 const addToCart = (product) => {
   if (!product.isOnCart) {
     product.isOnCart = true;
@@ -20,7 +24,12 @@ const addToCart = (product) => {
   }
   loadCart();
 };
-//--Function to add cartain item to wishlist
+
+/**
+ * A function to add a specific item to the wishlist.
+ * @param {Article} product Article to be added to wishlist.
+ * @param {Element} buttonItem Item of a button to be changed.
+ */
 const addToWish = (product, buttonItem) => {
   if (!product.isOnCart) {
     product.isOnCart = true;
@@ -30,7 +39,12 @@ const addToWish = (product, buttonItem) => {
     buttonItem.className = `far fa-heart`;
   }
 };
-//--Function to calculate the cart total
+
+/**
+ * A function to calculate the total of the cart array.
+ * @param {Array} cartArr Array of the cart.
+ * @returns Int of the calculated total of the cart.
+ */
 const calcTotal = (cartArr) => {
   let total = 0;
   for (const article of cartArr) {
@@ -38,21 +52,24 @@ const calcTotal = (cartArr) => {
   }
   return total.toFixed(2);
 };
-//--Function to load the entire cart
+
+/**
+ * A function to load the entire cart with all its elements.
+ */
 const loadCart = () => {
-  //Make cart array
+  // Make cart array
   let shoppingCart = [];
-  //Get all elements from db that are Have prop. isOnCart = true and insert into cart array
+  // Get all elements of the articles JSON that are on the cart.
   for (const article of articles) {
     if (article.isOnCart) {
       shoppingCart.push(article);
     }
   }
-  //clear the cart element of all its child elements to start from clean slate.
+  // Clear the cart element.
   while (cartContainer.firstChild) {
     cartContainer.removeChild(cartContainer.firstChild);
   }
-  //if cart is empty display "cart empty", else display cart.
+  // If cart is empty display "cart empty", else display cart.
   let h1ShoppingCart = document.createElement("h1");
   if (shoppingCart.length == 0) {
     h1ShoppingCart.textContent = `Winkelmandje is leeg`;
@@ -62,12 +79,13 @@ const loadCart = () => {
     cartContainer.appendChild(h1ShoppingCart);
   }
 
+  // Create article element to store all cart items in.
   let shoppingCartElement = document.createElement("article");
   cartContainer.appendChild(shoppingCartElement);
   shoppingCartElement.id = `shoppingCart`;
 
   for (const product of shoppingCart) {
-    //create elements
+    // Create elements
     let cartItemDiv = document.createElement("div");
     let cartItemA = document.createElement("a");
     let cartItemImg = document.createElement("img");
@@ -78,7 +96,8 @@ const loadCart = () => {
     let cartItemBtnLess = document.createElement("button");
     let cartItemBtnDelete = document.createElement("button");
     let cartItemPAmount = document.createElement("p");
-    //append elements
+
+    // Append elements
     shoppingCartElement.appendChild(cartItemDiv);
     cartItemDiv.appendChild(cartItemA);
     cartItemA.appendChild(cartItemImg);
@@ -89,12 +108,9 @@ const loadCart = () => {
     cartItemButtonDiv.appendChild(cartItemPAmount);
     cartItemButtonDiv.appendChild(cartItemBtnMore);
     cartItemButtonDiv.appendChild(cartItemBtnDelete);
-    //insert data
+
+    // Insert data
     cartItemA.href = `product.html`;
-    //--If clicked on link, store productIndex to local storage so that product page knows what to load.
-    cartItemA.addEventListener("click", () => {
-      localStorage.setItem("product", product.index);
-    });
     cartItemImg.src = product.imageSrc;
     cartItemImg.alt = `product photo`;
     cartItemPName.textContent = product.articleName;
@@ -104,14 +120,19 @@ const loadCart = () => {
     cartItemBtnMore.textContent = `+`;
     cartItemBtnLess.textContent = `-`;
     cartItemBtnDelete.className = `fas fa-trash-can`;
-    //--eventlistener to increase amount of item in cart
+    cartItemPAmount.textContent = product.count;
+
+    // Add eventlisteners.
+
+    // --eventlistener to increase amount of item in cart
     cartItemBtnMore.addEventListener("click", () => {
       product.count += 1;
       cartItemPAmount.textContent = product.count;
-      //--call function to reload cart.
+      // --As cart changed, call function to reload cart.
       loadCart();
     });
-    //--eventlistener to decrease amount of item in cart
+
+    // --eventlistener to decrease amount of item in cart (if amount == => delete)
     cartItemBtnLess.addEventListener("click", () => {
       if (product.count > 1) {
         product.count -= 1;
@@ -120,19 +141,25 @@ const loadCart = () => {
         product.count = 0;
         product.isOnCart = false;
       }
-      //--call function to reload cart.
+      // --As cart changed, call function to reload cart.
       loadCart();
     });
-    //--eventlistener to delete item from cart.
+
+    // --eventlistener to delete item from cart.
     cartItemBtnDelete.addEventListener("click", () => {
       product.count = 0;
       product.isOnCart = false;
-      //--call function to reload cart.
+      // --As cart changed, call function to reload cart.
       loadCart();
     });
-    cartItemPAmount.textContent = product.count;
+
+    //--If clicked on link, store productIndex to local storage so that product page knows what to load.
+    cartItemA.addEventListener("click", () => {
+      localStorage.setItem("product", product.index);
+    });
   }
-  //if cart not empty, calculate and display total price.
+
+  // if cart not empty, calculate and display total price.
   if (shoppingCart.length != 0) {
     let calcTotalp = document.createElement("p");
     cartContainer.appendChild(calcTotalp);
@@ -140,9 +167,12 @@ const loadCart = () => {
     calcTotalp.style.fontSize = `1.5rem`;
   }
 };
-//--Function to generate the filter menu at top of page.
+/**
+ * A function to generate the filter menu.
+ * @param {ObjectArray} articles The Object array of all the articles.
+ */
 const generateFilterMenu = (articles) => {
-  //Get all brands and types of all products and add them to coresponding arrays.
+  // Get all brands and types of all products and add them to coresponding arrays.
   let brands = [];
   let types = [];
   for (const article of articles) {
@@ -153,11 +183,11 @@ const generateFilterMenu = (articles) => {
       types.push(article.type);
     }
   }
-  //sort types and brands alphabethically.
+  // Sort types and brands alphabethically.
   brands.sort((a, b) => a.localeCompare(b));
   types.sort((a, b) => a.localeCompare(b));
 
-  //create elements
+  // Create elements
   let sortLegend = document.createElement("h2");
   let sortDropdownIcon = document.createElement("i");
   let sortElementsDiv = document.createElement("div");
@@ -275,27 +305,29 @@ const generateFilterMenu = (articles) => {
     filterBrandLabel.textContent = brand;
   }
 };
-//--Function to filter and sort the articles on the shopPage.
+/**
+ * A function to filter the products and sort them.
+ */
 const filterAndSortArticles = () => {
-  //Get wich types are checked to filter
+  // Get wich types are checked to filter
   let typesChecked = document.querySelectorAll(".type:checked");
   let typesCheckedId = [];
   for (const checkbox of typesChecked) {
     typesCheckedId.push(checkbox.id);
   }
-  //get wich brands are checked to filter
+  // Get wich brands are checked to filter
   let brandsChecked = document.querySelectorAll(".brand:checked");
   let brandsCheckedId = [];
   for (const checkbox of brandsChecked) {
     brandsCheckedId.push(checkbox.id);
   }
-  //execute filter
+  // Execute filter
   let filteredDataArray = articles.filter(
     (item) =>
       (typesCheckedId.length === 0 || typesCheckedId.includes(item.type)) &&
       (brandsCheckedId.length === 0 || brandsCheckedId.includes(item.brand))
   );
-  //get what to sort by
+  // Get what to sort by
   let sortBy = document.querySelectorAll('input[type="radio"]');
   let sortAlg = "";
 
@@ -317,12 +349,17 @@ const filterAndSortArticles = () => {
       return b.price - a.price;
     }
   });
-  //reload all articles
+
+  // As it changed reload all articles
   loadArticles(filteredDataArray);
 };
-//make an item for shop
+
+/**
+ * A function to create an item for the product grid container.
+ * @param {Artilce} article Article object to read data from.
+ */
 const makeProductItem = (article) => {
-  //make all elements
+  // Create elements
   let productArticle = document.createElement("article");
   let productA = document.createElement("a");
   let productFigure = document.createElement("figure");
@@ -336,7 +373,7 @@ const makeProductItem = (article) => {
   let productWishButton = document.createElement("button");
   let productWishButtonItem = document.createElement("i");
 
-  //append all elements to correct parents
+  // Append children
   productContainer.appendChild(productArticle);
   productArticle.appendChild(productA);
   productArticle.appendChild(productCartButton);
@@ -349,29 +386,31 @@ const makeProductItem = (article) => {
   productFigure.appendChild(productImg);
   productFigure.appendChild(productFigCaption);
 
-  //insert nececary data into elements
+  // Insert data
   productFigCaption.textContent = `"${article.articleName}" - Dall-E`;
   productArticle.className = "product";
   productA.href = "product.html";
   productA.target = "_blank";
-  productA.addEventListener("click", setLocalStorage("product", article.index));
-  productA.addEventListener(
-    "auxclick",
-    setLocalStorage("product", article.index)
-  );
   productImg.src = article.imageSrc;
   productName.textContent = article.articleName;
   productInfo.textContent = article.infoShort;
   productPrice.textContent = `€ ${article.price}`;
   productCartButton.textContent = `Voeg toe aan winkelwagentje `;
-  productCartButton.addEventListener("click", () => {
-    addToCart(article);
-    loadCart();
-  });
   productCartButton.appendChild(productCartButtonItem);
   productWishButton.id = `wishButton`;
   productCartButtonItem.className = `fas fa-shopping-basket`;
   productWishButtonItem.className = `far fa-heart`;
+
+  // Add eventListeners.
+  productA.addEventListener("click", setLocalStorage("product", article.index));
+  productA.addEventListener(
+    "auxclick",
+    setLocalStorage("product", article.index)
+  );
+  productCartButton.addEventListener("click", () => {
+    addToCart(article);
+    loadCart();
+  });
   productWishButton.addEventListener("click", () => {
     addToWish(article, productWishButtonItem);
   });
@@ -382,14 +421,28 @@ const makeProductItem = (article) => {
     productWishButton.style.color = `#444444`;
   });
 };
+
+/**
+ * A function to store a key and a value to browser local storage.
+ * @param {string} key The key for local storage.
+ * @param {string} value The value to be stored.
+ * @returns localStorage.setItem(key, value);
+ */
 const setLocalStorage = (key, value) => () => {
   localStorage.setItem(key, value);
 };
 
+/**
+ * A function to load all items in the product grid container.
+ * @param {ObjectArray} filteredAndSortedArray
+ */
 const loadArticles = (filteredAndSortedArray) => {
+  // Clear product grid container.
   while (productContainer.firstChild) {
     productContainer.removeChild(productContainer.firstChild);
   }
+
+  // Load all items or display error message.
   if (filteredAndSortedArray.length != 0) {
     for (const article of filteredAndSortedArray) {
       makeProductItem(article);
@@ -400,8 +453,11 @@ const loadArticles = (filteredAndSortedArray) => {
     FilterErrorH1.textContent = `< - - No items match your filter - - >`;
   }
 };
-//code
+
+// Code to be executed
 generateFilterMenu(articles);
+
+// JS for collapsible areas.
 let collapsibles = document.getElementsByClassName("dropDown");
 for (let i = 0; i < collapsibles.length; i++) {
   let collapsible = collapsibles[i];
@@ -419,10 +475,9 @@ for (let i = 0; i < collapsibles.length; i++) {
     }
   });
 }
-
 filterAndSortArticles();
 
-//eventListeners
+// EventListeners
 let allCheckBoxes = document.querySelectorAll(".type, .brand");
 for (const checkbox of allCheckBoxes) {
   checkbox.addEventListener("change", filterAndSortArticles);

@@ -1,4 +1,12 @@
+// Variables
 let collapsibles = document.getElementsByClassName("dropDown");
+let contactForm = document.getElementById("contactForm");
+
+// Functions
+
+// Code to be executed
+
+// - JS for collapsible areas.
 for (let i = 0; i < collapsibles.length; i++) {
   let collapsible = collapsibles[i];
   collapsible.addEventListener("click", function () {
@@ -16,7 +24,7 @@ for (let i = 0; i < collapsibles.length; i++) {
   });
 }
 
-let contactForm = document.getElementById("contactForm");
+// - Check if form is filled in correctly else unveil error messages.
 contactForm.addEventListener("submit", (e) => {
   e.preventDefault();
 

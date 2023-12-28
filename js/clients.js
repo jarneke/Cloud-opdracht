@@ -1,3 +1,16 @@
+// Variables
+let page = 1;
+let pageP = document.getElementById("page");
+let btnLeft = document.getElementById("btnleft");
+let btnRight = document.getElementById("btnright");
+
+// Functions
+
+/**
+ *
+ * @param {int} page Page number (default = 1)
+ * @returns fetch of api.
+ */
 function getUsers(page = 1) {
   return fetch(
     `https://randomuser.me/api/?page=${page}&results=12&seed=Merel&exc=login,registered,phone,nat`
@@ -38,10 +51,11 @@ function getUsers(page = 1) {
       return [];
     });
 }
-let page = 1;
-let pageP = document.getElementById("page");
-pageP.textContent = page;
-const changePage = (action) => {
+/**
+ * A function to change pages.
+ * @param {bool} action if true go page up else go page down (default = false)
+ */
+const changePage = (action = false) => {
   if (action) {
     page += 1;
   } else {
@@ -51,9 +65,7 @@ const changePage = (action) => {
   }
   pageP.textContent = page;
 };
-getUsers();
-let btnLeft = document.getElementById("btnleft");
-let btnRight = document.getElementById("btnright");
+// Add eventListeners.
 btnLeft.addEventListener("click", () => {
   changePage(false);
   getUsers(page);
@@ -62,3 +74,7 @@ btnRight.addEventListener("click", () => {
   changePage(true);
   getUsers(page);
 });
+
+// Code to be executed
+pageP.textContent = page;
+getUsers();

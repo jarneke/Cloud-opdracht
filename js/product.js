@@ -1,20 +1,28 @@
+// Variables
 import articles from "../assets/json/articles.json" assert { type: "json" };
-let articlesArr = articles;
 
+let articlesArr = articles;
 let productIndex = localStorage.getItem("product") - 1;
 let reviewScore = 0;
+
+// Functions
+/**
+ * A function to generate the entire product page.
+ * @param {Article} product Article to be generated.
+ */
 const makeProductPage = (product) => {
   document.title = product.articleName;
   const sectionView = document.getElementById("view");
   const sectionBottom = document.getElementById("bottom");
 
+  // Clear page.
   while (sectionView.firstChild) {
     sectionView.removeChild(sectionView.firstChild);
   }
   while (sectionBottom.firstChild) {
     sectionBottom.removeChild(sectionBottom.firstChild);
   }
-  //create all elements
+  // Create elements
   let articleLeft = document.createElement("article");
   let productName = document.createElement("h1");
   let pInfoShort = document.createElement("h2");
@@ -53,7 +61,7 @@ const makeProductPage = (product) => {
   let reviewFormMessageField = document.createElement("textarea");
   let reviewFormSubmit = document.createElement("input");
 
-  //append elements to correct parent
+  // Append children
   articleReviews.appendChild(articleTop);
   sectionView.appendChild(articleLeft);
   articleLeft.appendChild(productName);
@@ -83,30 +91,13 @@ const makeProductPage = (product) => {
   reviewFormFieldset.appendChild(reviewFormMessageField);
   reviewFormFieldset.appendChild(reviewFormSubmit);
 
-  //insert nececary data
+  //insert data
   productFigCaption.textContent = `"${product.articleName}" - Dall-E `;
   reviewFormNameLabel.htmlFor = `userName`;
   reviewFormNameLabel.textContent = `Gebruikers naam`;
   reviewFormSubmit.type = `submit`;
   reviewFormSubmit.value = `Plaats review`;
   reviewFormSubmit.id = `reviewSubmit`;
-  reviewForm.addEventListener("submit", (e) => {
-    e.preventDefault();
-    let userName = reviewFormNameInput.value;
-    let comment = reviewFormMessageField.value;
-    let review = {
-      username: `${userName}`,
-      rating: reviewScore,
-      comment: `${comment}`,
-    };
-    let index = localStorage.getItem("product") - 1;
-    if (userName != "" && comment != "") {
-      articles[index].reviews.push(review);
-      console.log("added");
-    }
-
-    makeProductPage(articlesArr[productIndex]);
-  });
   reviewForm.id = `reviewFrom`;
   reviewFormLegend.textContent = `Schrijf review`;
   reviewFormNameInput.required = true;
@@ -115,9 +106,6 @@ const makeProductPage = (product) => {
   reviewFormRatingLabel.textContent = `Geef je score:`;
   reviewFormMessageLabel.textContent = `Schrijf je review`;
   addToWishlistButtonItem.className = `far fa-heart`;
-  addToWishlistButton.addEventListener("click", () => {
-    addToWish(product, addToWishlistButtonItem);
-  });
   addToWishlistButton.id = `wishButton`;
   articleLeft.className = `left`;
   productName.textContent = product.articleName;
@@ -175,7 +163,34 @@ const makeProductPage = (product) => {
     articleReview.appendChild(reviewP);
     reviewP.textContent = review.comment;
   }
+
+  // Add eventlistener
+  reviewForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    let userName = reviewFormNameInput.value;
+    let comment = reviewFormMessageField.value;
+    let review = {
+      username: `${userName}`,
+      rating: reviewScore,
+      comment: `${comment}`,
+    };
+    let index = localStorage.getItem("product") - 1;
+    if (userName != "" && comment != "") {
+      articles[index].reviews.push(review);
+      console.log("added");
+    }
+
+    makeProductPage(articlesArr[productIndex]);
+  });
+  addToWishlistButton.addEventListener("click", () => {
+    addToWish(product, addToWishlistButtonItem);
+  });
 };
+
+/**
+ * A function to set the amount of stars someone giving a review.
+ * @param {int} i Amount of stars to color
+ */
 const setStar = (i) => {
   const stars = document.getElementsByClassName("writeReview");
   for (const star of stars) {
@@ -186,6 +201,12 @@ const setStar = (i) => {
     reviewScore = i + 1;
   }
 };
+
+/**
+ * A function to get the reviewscore.
+ * @param {*} product Product
+ * @returns review score.
+ */
 const getreviewScore = (product) => {
   let reviewsArr = product.reviews;
   let ratingsArr = [];
@@ -197,6 +218,12 @@ const getreviewScore = (product) => {
   reviewScore = getAvgOfAray(ratingsArr);
   return reviewScore;
 };
+
+/**
+ * A function to add a specific item to the wishlist.
+ * @param {Article} product Article to be added to wishlist.
+ * @param {Element} buttonItem Item of a button to be changed.
+ */
 const addToWish = (product, buttonItem) => {
   if (!product.isOnCart) {
     product.isOnCart = true;
@@ -206,6 +233,11 @@ const addToWish = (product, buttonItem) => {
     buttonItem.className = `far fa-heart`;
   }
 };
+/**
+ * A function to calculate the average of review array.
+ * @param {ReviewArray} array Array of reviews
+ * @returns (int) Average of all review scores
+ */
 const getAvgOfAray = (array) => {
   let arrSum = 0;
   let count = 0;
@@ -218,8 +250,11 @@ const getAvgOfAray = (array) => {
 
   return avg;
 };
+
+// Code to be executed
 makeProductPage(articlesArr[productIndex]);
 
+// JS for collapsible areas.
 let collapsibles = document.getElementsByClassName("dropDown");
 for (let i = 0; i < collapsibles.length; i++) {
   let collapsible = collapsibles[i];
