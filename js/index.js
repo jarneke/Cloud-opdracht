@@ -30,15 +30,13 @@ const makeItem = (item) => {
   //Insert data.
   itemA.href = `product.html`;
   itemA.target = `_blank`;
-  itemA.addEventListener("click", setLocalStorage("product", item.index));
-  itemA.addEventListener("auxclick", setLocalStorage("product", item.index));
   itemImg.src = item.imageSrc;
   itemH2.textContent = item.articleName;
   itemH3.textContent = item.infoShort;
   itemP.textContent = `€ ${item.price}`;
-
-  //Append to correct parent.
-  scrollerDiv.appendChild(scrollerInnerUl);
+  //add event listeners
+  itemA.addEventListener("click", setLocalStorage("product", item.index));
+  itemA.addEventListener("auxclick", setLocalStorage("product", item.index));
 };
 
 //Code to be executed.
@@ -47,6 +45,7 @@ const makeItem = (item) => {
 let title = document.createElement("h1");
 let scrollerDiv = document.createElement("div");
 let scrollerInnerUl = document.createElement("ul");
+scrollerDiv.appendChild(scrollerInnerUl);
 //---Append Elements.
 popularItems.appendChild(title);
 popularItems.appendChild(scrollerDiv);
