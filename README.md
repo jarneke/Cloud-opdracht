@@ -93,5 +93,6 @@ You can view the project [here](https://jarneke.github.io/Web_tech-project_assig
 - Presenattion is 5-10 minutes.
 ---
 ## My grading
+
 At this point in time i have not receaved a Grade yet, i will update once i get it.
 ---
