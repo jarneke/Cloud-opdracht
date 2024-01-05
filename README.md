@@ -1,6 +1,7 @@
 # **Web tech Project assignment**
 ## Introduction
 At the start of the year (seoptember 2023) we got a project assignment.  This assignment was, make a website and come present it for your class.
+!The site is in dutch!
 
 We got several deadlines with certain stuff , each deadline is explained in a point in the [Table of contents](#table-of-contents).
 
