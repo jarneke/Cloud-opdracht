@@ -1,8 +1,12 @@
 # **Web Tech Project Assignment**
 ## Introduction
-At the start of the year (September 2023), we received a project assignment. This assignment was to create a website and present it to our class. The site is in Dutch.
+At the start of the year (September 2023), we received a project assignment. This assignment was to create a website and present it to our class.
 
 We had several deadlines, each explained in the [Table of Contents](#table-of-contents).
+
+Note, I am not a designer and this project is not be graded on our design, just the execution of the project.
+
+!The site is in Dutch.!
 
 You can view the project [here](https://jarneke.github.io/Web_tech-project_assignment/).
 ---
