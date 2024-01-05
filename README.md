@@ -1,6 +1,12 @@
 # **Web tech Project assignment**
+## Introduction
+At the start of the year we got a project assignment.  This assignment was, make a website and come present it for your class.
+
+We got several deadlines with certain stuff , each deadline is explained in a point in the [Table of contents](#table-of-contents).
+
+You can view the project [here](https://jarneke.github.io/Web_tech-project_assignment/)
+---
 ## Table of contents
-- [Introduction](#introduction)
 - [Deadline 1](#deadline-1)
 - [Deadline 2](#deadline-2)
 - [Deadline 3](#deadline-3)
@@ -9,13 +15,6 @@
 - [Deadline 6](#deadline-6)
 - [Presentation](#presentation)
 - [My grading](#my-grading)
----
-## Introduction
-At the start of the year we got a project assignment.  This assignment was, make a website and come present it for your class.
-
-We got several deadlines with certain stuff , each deadline is explained in a point in the [Table of contents](#table-of-contents).
-
-You can view the project [here](https://jarneke.github.io/Web_tech-project_assignment/)
 ---
 ## Deadline 1
 ### 24/09/2023
