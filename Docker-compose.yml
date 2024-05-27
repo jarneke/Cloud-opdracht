@@ -13,5 +13,7 @@ services:
       MYSQL_DATABASE: alpinePulse
     volumes:
       - db_data:/var/lib/mysql
+    ports:
+      - "3307:3306"
 volumes:
   db_data:
