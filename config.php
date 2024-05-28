@@ -6,5 +6,5 @@ $databasePassword = 'root';
 $databaseName = 'alpinePulse';
 
 // Connect to the database
-$mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName)
+$mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName);
 ?>
