@@ -1,6 +1,6 @@
 <?php
 // Basic connection settings
-$databaseHost = 'localhost';
+$databaseHost = 'db';
 $databaseUsername = 'root';
 $databasePassword = 'root';
 $databaseName = 'alpinePulse';
